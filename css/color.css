@@ -1,0 +1,40 @@
+.main-panel {
+    border-top: 2px solid #2aa7df;
+}
+
+.btn-primary {
+    background: #2aa7df;
+    background-image: linear-gradient(to bottom left, #2aa7df, #545af5, #2aa7df);
+    background-color: #2aa7df;
+}
+
+
+.btn-primary.active,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #ba54f5!important;
+    background-image: linear-gradient(to bottom left, #2aa7df, #545af5, #2aa7df)!important;
+}
+
+.off-canvas-sidebar,
+.sidebar {
+    background: #ba54f5;
+    background: linear-gradient(0deg, #3d10ef, #2aa7df);
+}
+.form-control:focus {
+    border-color: #2aa7df;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #2aa7df;
+    border-color: #00f2c3;
+}

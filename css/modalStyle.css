@@ -1,0 +1,58 @@
+.modal-header .close{
+  margin-top: -22px !important;
+}
+
+.modal .modal-header .close {
+    color: #fd5d93;
+    text-shadow: none;
+}
+
+.modal-title{
+  text-align:center !important;
+  color: #293787 !important;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.modal .show .modal-dialog {
+    transform: translateY(50%) !important;
+}
+
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 450px !important;
+        margin: 30px auto;
+    }
+}
+
+.modal {
+    margin-top: 10%;
+}
+
+.modal-content .modal-footer {
+    border-top: 0;
+    justify-content: space-between;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 24px 24px 16px;
+    border-top: 1px solid #e9ecef;
+    border-bottom-right-radius: .2857rem;
+    border-bottom-left-radius: .2857rem;
+}
+
+.form-control {
+    border-color: #2b3553;
+    border-radius: .4285rem;
+    font-size: 1.2rem;
+    transition: color .3s ease-in-out,border-color .3s ease-in-out,background-color .3s ease-in-out;
+}
+
+.label-pwd{
+    color: #2b3553;
+    font-weight: 300;
+
+}
